@@ -2,6 +2,10 @@
   "name": "nodejs-api",
   "version": "1.0.0",
   "description": "Node.js RESTful API",
+  "engines": {
+    "node": "12.14.1",
+    "npm": "6.13.4"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
