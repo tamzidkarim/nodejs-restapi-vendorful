@@ -1,5 +1,7 @@
 {
   "env": {
+    "PORT": "3000",
+    "JWT_KEY": "shhhhhh",
     "MONGO_ATLAS_PW": "root"
   }
 }

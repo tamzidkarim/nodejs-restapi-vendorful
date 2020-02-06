@@ -27,6 +27,8 @@ db.on("error", console.error.bind(console, "MongoDB connection error:"));
 //logger
 app.use(morgan("dev"));
 
+app.use("/uploads", express.static("uploads"));
+
 //bodyparser
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
